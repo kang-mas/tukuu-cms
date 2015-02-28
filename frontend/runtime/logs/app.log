@@ -1,0 +1,1562 @@
+2015-01-27 20:05:21 [192.168.0.100][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.0.100
+    in C:\nginx\html\advanced\frontend\views\layouts\main.php:73
+    in C:\nginx\html\advanced\frontend\controllers\SiteController.php:70
+2015-01-27 20:05:21 [192.168.0.100][-][-][info][application] $_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\Documents and Settings\\All Users'
+    'APPDATA' => 'C:\\Documents and Settings\\User\\Application Data'
+    'CLIENTNAME' => 'Console'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'NOPIE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DEFAULT_CA_NR' => 'CA8'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'GPU_MAX_ALLOC_PERCENT' => '75'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Documents and Settings\\User'
+    'LOGONSERVER' => '\\\\NOPIE'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\nginx\\PHP;C:\\Documents and Settings\\All Users\\Application Data\\Oracle\\Java\\javapath;C:\\Program Files\\Borland\\Delphi7\\Bin;C:\\Program Files\\Borland\\Delphi7\\Projects\\Bpl\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\bin\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\framework\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\WBEM;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\Common Files\\Teleca Shared;C:\\Program Files\\Xuggle\\bin;C:\\Program Files\\Bitvise SSH Client;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\OpenVPN\\bin;C:\\Strawberry\\c\\bin;C:\\Strawberry\\perl\\site\\bin;C:\\Strawberry\\perl\\bin;c:\\wt-nmp\\bin;C:\\Program Files\\Common Files\\Nero\\Lib\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'x86 Family 6 Model 28 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '1c0a'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'TMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'USERDOMAIN' => 'NOPIE'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Documents and Settings\\User'
+    'VS100COMNTOOLS' => 'C:\\Program Files\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'windir' => 'C:\\WINDOWS'
+    '__COMPAT_LAYER' => 'EnableNXShowUI '
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US'
+    'HTTP_X_WAP_PROFILE' => 'http://gsm.lge.com/html/gsm/D410-M3-D1.xml'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; LG-D410 Build/KOT49I.A1410955834) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.1599.103 Mobile Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.0.101'
+    'PATH_TRANSLATED' => 'C:\\nginx/html/advanced/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'C:\\nginx/html/advanced/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.0.101'
+    'REMOTE_PORT' => '50883'
+    'REMOTE_ADDR' => '192.168.0.100'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'C:\\nginx/html/advanced'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/index.php'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422363921.1406
+    'REQUEST_TIME' => 1422363921
+]
+2015-01-27 20:05:50 [192.168.0.100][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.0.100
+    in C:\nginx\html\advanced\frontend\views\layouts\main.php:73
+    in C:\nginx\html\advanced\frontend\controllers\SiteController.php:110
+2015-01-27 20:05:50 [192.168.0.100][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '8u8614vbem0d0qei3pf7j8far4'
+    '_csrf' => '54530a2d6ef37dca9aa58ce182c71a9c8258ee0ee235203f4c812b7108194c5cs:32:\"Y2TpUeXHf0bDZhZbp2AKtePGuT5fqvlc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'rawekx'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\Documents and Settings\\All Users'
+    'APPDATA' => 'C:\\Documents and Settings\\User\\Application Data'
+    'CLIENTNAME' => 'Console'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'NOPIE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DEFAULT_CA_NR' => 'CA8'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'GPU_MAX_ALLOC_PERCENT' => '75'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Documents and Settings\\User'
+    'LOGONSERVER' => '\\\\NOPIE'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\nginx\\PHP;C:\\Documents and Settings\\All Users\\Application Data\\Oracle\\Java\\javapath;C:\\Program Files\\Borland\\Delphi7\\Bin;C:\\Program Files\\Borland\\Delphi7\\Projects\\Bpl\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\bin\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\framework\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\WBEM;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\Common Files\\Teleca Shared;C:\\Program Files\\Xuggle\\bin;C:\\Program Files\\Bitvise SSH Client;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\OpenVPN\\bin;C:\\Strawberry\\c\\bin;C:\\Strawberry\\perl\\site\\bin;C:\\Strawberry\\perl\\bin;c:\\wt-nmp\\bin;C:\\Program Files\\Common Files\\Nero\\Lib\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'x86 Family 6 Model 28 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '1c0a'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'TMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'USERDOMAIN' => 'NOPIE'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Documents and Settings\\User'
+    'VS100COMNTOOLS' => 'C:\\Program Files\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'windir' => 'C:\\WINDOWS'
+    '__COMPAT_LAYER' => 'EnableNXShowUI '
+    'HTTP_COOKIE' => 'PHPSESSID=8u8614vbem0d0qei3pf7j8far4; _csrf=54530a2d6ef37dca9aa58ce182c71a9c8258ee0ee235203f4c812b7108194c5cs%3A32%3A%22Y2TpUeXHf0bDZhZbp2AKtePGuT5fqvlc%22%3B'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US'
+    'HTTP_X_WAP_PROFILE' => 'http://gsm.lge.com/html/gsm/D410-M3-D1.xml'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_REFERER' => 'http://192.168.0.101/frontend/web/index.php'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; LG-D410 Build/KOT49I.A1410955834) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.1599.103 Mobile Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.0.101'
+    'PATH_TRANSLATED' => 'C:\\nginx/html/advanced/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'C:\\nginx/html/advanced/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.0.101'
+    'REMOTE_PORT' => '50887'
+    'REMOTE_ADDR' => '192.168.0.100'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'C:\\nginx/html/advanced'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422363950.0469
+    'REQUEST_TIME' => 1422363950
+]
+2015-01-27 22:11:13 [192.168.0.100][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.0.100
+    in C:\nginx\html\advanced\frontend\views\layouts\main.php:73
+    in C:\nginx\html\advanced\frontend\controllers\SiteController.php:70
+2015-01-27 22:11:11 [192.168.0.100][-][-][info][application] $_COOKIE = [
+    '_csrf' => '54530a2d6ef37dca9aa58ce182c71a9c8258ee0ee235203f4c812b7108194c5cs:32:\"Y2TpUeXHf0bDZhZbp2AKtePGuT5fqvlc\";'
+    'PHPSESSID' => '8u8614vbem0d0qei3pf7j8far4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'rawekx'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\Documents and Settings\\All Users'
+    'APPDATA' => 'C:\\Documents and Settings\\User\\Application Data'
+    'CLIENTNAME' => 'Console'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'NOPIE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DEFAULT_CA_NR' => 'CA8'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'GPU_MAX_ALLOC_PERCENT' => '75'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Documents and Settings\\User'
+    'LOGONSERVER' => '\\\\NOPIE'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\nginx\\PHP;C:\\Documents and Settings\\All Users\\Application Data\\Oracle\\Java\\javapath;C:\\Program Files\\Borland\\Delphi7\\Bin;C:\\Program Files\\Borland\\Delphi7\\Projects\\Bpl\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\bin\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\framework\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\WBEM;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\Common Files\\Teleca Shared;C:\\Program Files\\Xuggle\\bin;C:\\Program Files\\Bitvise SSH Client;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\OpenVPN\\bin;C:\\Strawberry\\c\\bin;C:\\Strawberry\\perl\\site\\bin;C:\\Strawberry\\perl\\bin;c:\\wt-nmp\\bin;C:\\Program Files\\Common Files\\Nero\\Lib\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'x86 Family 6 Model 28 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '1c0a'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'TMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'USERDOMAIN' => 'NOPIE'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Documents and Settings\\User'
+    'VS100COMNTOOLS' => 'C:\\Program Files\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'windir' => 'C:\\WINDOWS'
+    '__COMPAT_LAYER' => 'EnableNXShowUI '
+    'HTTP_COOKIE' => '_csrf=54530a2d6ef37dca9aa58ce182c71a9c8258ee0ee235203f4c812b7108194c5cs%3A32%3A%22Y2TpUeXHf0bDZhZbp2AKtePGuT5fqvlc%22%3B; PHPSESSID=8u8614vbem0d0qei3pf7j8far4'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US'
+    'HTTP_X_WAP_PROFILE' => 'http://gsm.lge.com/html/gsm/D410-M3-D1.xml'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_REFERER' => 'http://192.168.0.101/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; LG-D410 Build/KOT49I.A1410955834) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.1599.103 Mobile Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.0.101'
+    'PATH_TRANSLATED' => 'C:\\nginx/html/advanced/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'C:\\nginx/html/advanced/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.0.101'
+    'REMOTE_PORT' => '50919'
+    'REMOTE_ADDR' => '192.168.0.100'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'C:\\nginx/html/advanced'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/index.php'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422371471.875
+    'REQUEST_TIME' => 1422371471
+]
+2015-01-27 22:37:00 [192.168.0.100][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.0.100
+    in C:\nginx\html\advanced\frontend\views\layouts\main.php:73
+    in C:\nginx\html\advanced\frontend\controllers\SiteController.php:70
+2015-01-27 22:36:59 [192.168.0.100][-][-][info][application] $_COOKIE = [
+    '_csrf' => '54530a2d6ef37dca9aa58ce182c71a9c8258ee0ee235203f4c812b7108194c5cs:32:\"Y2TpUeXHf0bDZhZbp2AKtePGuT5fqvlc\";'
+    'PHPSESSID' => '8u8614vbem0d0qei3pf7j8far4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'rawekx'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\Documents and Settings\\All Users'
+    'APPDATA' => 'C:\\Documents and Settings\\User\\Application Data'
+    'CLIENTNAME' => 'Console'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'NOPIE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DEFAULT_CA_NR' => 'CA8'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'GPU_MAX_ALLOC_PERCENT' => '75'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Documents and Settings\\User'
+    'LOGONSERVER' => '\\\\NOPIE'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\nginx\\PHP;C:\\Documents and Settings\\All Users\\Application Data\\Oracle\\Java\\javapath;C:\\Program Files\\Borland\\Delphi7\\Bin;C:\\Program Files\\Borland\\Delphi7\\Projects\\Bpl\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\bin\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\framework\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\WBEM;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\Common Files\\Teleca Shared;C:\\Program Files\\Xuggle\\bin;C:\\Program Files\\Bitvise SSH Client;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\OpenVPN\\bin;C:\\Strawberry\\c\\bin;C:\\Strawberry\\perl\\site\\bin;C:\\Strawberry\\perl\\bin;c:\\wt-nmp\\bin;C:\\Program Files\\Common Files\\Nero\\Lib\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'x86 Family 6 Model 28 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '1c0a'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'TMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'USERDOMAIN' => 'NOPIE'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Documents and Settings\\User'
+    'VS100COMNTOOLS' => 'C:\\Program Files\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'windir' => 'C:\\WINDOWS'
+    '__COMPAT_LAYER' => 'EnableNXShowUI '
+    'HTTP_COOKIE' => '_csrf=54530a2d6ef37dca9aa58ce182c71a9c8258ee0ee235203f4c812b7108194c5cs%3A32%3A%22Y2TpUeXHf0bDZhZbp2AKtePGuT5fqvlc%22%3B; PHPSESSID=8u8614vbem0d0qei3pf7j8far4'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US'
+    'HTTP_X_WAP_PROFILE' => 'http://gsm.lge.com/html/gsm/D410-M3-D1.xml'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_REFERER' => 'http://192.168.0.101/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; LG-D410 Build/KOT49I.A1410955834) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.1599.103 Mobile Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.0.101'
+    'PATH_TRANSLATED' => 'C:\\nginx/html/advanced/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'C:\\nginx/html/advanced/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.0.101'
+    'REMOTE_PORT' => '50974'
+    'REMOTE_ADDR' => '192.168.0.100'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'C:\\nginx/html/advanced'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/index.php'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422373019.7031
+    'REQUEST_TIME' => 1422373019
+]
+2015-01-28 11:23:04 [192.168.0.100][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.0.100
+    in C:\nginx\html\advanced\frontend\views\layouts\main.php:73
+    in C:\nginx\html\advanced\frontend\controllers\SiteController.php:70
+2015-01-28 11:23:01 [192.168.0.100][-][-][info][application] $_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\Documents and Settings\\All Users'
+    'APPDATA' => 'C:\\Documents and Settings\\User\\Application Data'
+    'CLIENTNAME' => 'Console'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'NOPIE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DEFAULT_CA_NR' => 'CA8'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'GPU_MAX_ALLOC_PERCENT' => '75'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Documents and Settings\\User'
+    'LOGONSERVER' => '\\\\NOPIE'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\nginx\\PHP;C:\\Documents and Settings\\All Users\\Application Data\\Oracle\\Java\\javapath;C:\\Program Files\\Borland\\Delphi7\\Bin;C:\\Program Files\\Borland\\Delphi7\\Projects\\Bpl\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\bin\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\framework\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\WBEM;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\Common Files\\Teleca Shared;C:\\Program Files\\Xuggle\\bin;C:\\Program Files\\Bitvise SSH Client;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\OpenVPN\\bin;C:\\Strawberry\\c\\bin;C:\\Strawberry\\perl\\site\\bin;C:\\Strawberry\\perl\\bin;c:\\wt-nmp\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'x86 Family 6 Model 28 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '1c0a'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'TMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'USERDOMAIN' => 'NOPIE'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Documents and Settings\\User'
+    'VS100COMNTOOLS' => 'C:\\Program Files\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'windir' => 'C:\\WINDOWS'
+    '__COMPAT_LAYER' => 'EnableNXShowUI '
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US'
+    'HTTP_X_WAP_PROFILE' => 'http://gsm.lge.com/html/gsm/D410-M3-D1.xml'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; LG-D410 Build/KOT49I.A1410955834) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.1599.103 Mobile Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.0.103'
+    'PATH_TRANSLATED' => 'C:\\nginx/html/advanced/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'C:\\nginx/html/advanced/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.0.103'
+    'REMOTE_PORT' => '40474'
+    'REMOTE_ADDR' => '192.168.0.100'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'C:\\nginx/html/advanced'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/index.php'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422418981.2682
+    'REQUEST_TIME' => 1422418981
+]
+2015-01-28 11:23:14 [192.168.0.100][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.0.100
+    in C:\nginx\html\advanced\frontend\views\layouts\main.php:73
+    in C:\nginx\html\advanced\frontend\controllers\SiteController.php:132
+2015-01-28 11:23:12 [192.168.0.100][-][-][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'o638tka8kp71j5pdu10f72r2t2'
+    '_csrf' => 'bbf07db2a32a0521a1be309a60bac80869e9a3404bdc5d366cb80acecf82b9e3s:32:\"m_r1IF4KCE0nUNNP_fXp5kXhF4BMobdW\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\Documents and Settings\\All Users'
+    'APPDATA' => 'C:\\Documents and Settings\\User\\Application Data'
+    'CLIENTNAME' => 'Console'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'NOPIE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DEFAULT_CA_NR' => 'CA8'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'GPU_MAX_ALLOC_PERCENT' => '75'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Documents and Settings\\User'
+    'LOGONSERVER' => '\\\\NOPIE'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\nginx\\PHP;C:\\Documents and Settings\\All Users\\Application Data\\Oracle\\Java\\javapath;C:\\Program Files\\Borland\\Delphi7\\Bin;C:\\Program Files\\Borland\\Delphi7\\Projects\\Bpl\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\bin\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\framework\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\WBEM;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\Common Files\\Teleca Shared;C:\\Program Files\\Xuggle\\bin;C:\\Program Files\\Bitvise SSH Client;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\OpenVPN\\bin;C:\\Strawberry\\c\\bin;C:\\Strawberry\\perl\\site\\bin;C:\\Strawberry\\perl\\bin;c:\\wt-nmp\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'x86 Family 6 Model 28 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '1c0a'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'TMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'USERDOMAIN' => 'NOPIE'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Documents and Settings\\User'
+    'VS100COMNTOOLS' => 'C:\\Program Files\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'windir' => 'C:\\WINDOWS'
+    '__COMPAT_LAYER' => 'EnableNXShowUI '
+    'HTTP_COOKIE' => 'PHPSESSID=o638tka8kp71j5pdu10f72r2t2; _csrf=bbf07db2a32a0521a1be309a60bac80869e9a3404bdc5d366cb80acecf82b9e3s%3A32%3A%22m_r1IF4KCE0nUNNP_fXp5kXhF4BMobdW%22%3B'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US'
+    'HTTP_X_WAP_PROFILE' => 'http://gsm.lge.com/html/gsm/D410-M3-D1.xml'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_REFERER' => 'http://192.168.0.103/frontend/web/index.php'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; LG-D410 Build/KOT49I.A1410955834) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.1599.103 Mobile Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.0.103'
+    'PATH_TRANSLATED' => 'C:\\nginx/html/advanced/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'C:\\nginx/html/advanced/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.0.103'
+    'REMOTE_PORT' => '40478'
+    'REMOTE_ADDR' => '192.168.0.100'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'C:\\nginx/html/advanced'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422418992.8307
+    'REQUEST_TIME' => 1422418992
+]
+2015-01-28 11:23:51 [192.168.0.100][-][o638tka8kp71j5pdu10f72r2t2][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\models\Expression' not found' in C:\nginx\html\advanced\common\models\User.php:53
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-01-28 11:23:50 [192.168.0.100][-][o638tka8kp71j5pdu10f72r2t2][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_POST = [
+    '_csrf' => 'WWRHQnB5RlY0OzVzOT9yHRohdywlNwgGBgIfMkUSHj4fUAUPHxsiAQ=='
+    'SignupForm' => [
+        'username' => 'kangmas'
+        'email' => 'masbuqin@gmail.com'
+        'password' => 'msqj1783'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'o638tka8kp71j5pdu10f72r2t2'
+    '_csrf' => 'bbf07db2a32a0521a1be309a60bac80869e9a3404bdc5d366cb80acecf82b9e3s:32:\"m_r1IF4KCE0nUNNP_fXp5kXhF4BMobdW\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\Documents and Settings\\All Users'
+    'APPDATA' => 'C:\\Documents and Settings\\User\\Application Data'
+    'CLIENTNAME' => 'Console'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'NOPIE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DEFAULT_CA_NR' => 'CA8'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'GPU_MAX_ALLOC_PERCENT' => '75'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Documents and Settings\\User'
+    'LOGONSERVER' => '\\\\NOPIE'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\nginx\\PHP;C:\\Documents and Settings\\All Users\\Application Data\\Oracle\\Java\\javapath;C:\\Program Files\\Borland\\Delphi7\\Bin;C:\\Program Files\\Borland\\Delphi7\\Projects\\Bpl\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\bin\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\framework\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\WBEM;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\Common Files\\Teleca Shared;C:\\Program Files\\Xuggle\\bin;C:\\Program Files\\Bitvise SSH Client;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\OpenVPN\\bin;C:\\Strawberry\\c\\bin;C:\\Strawberry\\perl\\site\\bin;C:\\Strawberry\\perl\\bin;c:\\wt-nmp\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'x86 Family 6 Model 28 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '1c0a'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'TMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'USERDOMAIN' => 'NOPIE'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Documents and Settings\\User'
+    'VS100COMNTOOLS' => 'C:\\Program Files\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'windir' => 'C:\\WINDOWS'
+    '__COMPAT_LAYER' => 'EnableNXShowUI '
+    'HTTP_COOKIE' => 'PHPSESSID=o638tka8kp71j5pdu10f72r2t2; _csrf=bbf07db2a32a0521a1be309a60bac80869e9a3404bdc5d366cb80acecf82b9e3s%3A32%3A%22m_r1IF4KCE0nUNNP_fXp5kXhF4BMobdW%22%3B'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US'
+    'HTTP_X_WAP_PROFILE' => 'http://gsm.lge.com/html/gsm/D410-M3-D1.xml'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_REFERER' => 'http://192.168.0.103/frontend/web/index.php?r=site%2Fsignup'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; LG-D410 Build/KOT49I.A1410955834) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.1599.103 Mobile Safari/537.36'
+    'HTTP_ORIGIN' => 'http://192.168.0.103'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.0.103'
+    'PATH_TRANSLATED' => 'C:\\nginx/html/advanced/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'C:\\nginx/html/advanced/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.0.103'
+    'REMOTE_PORT' => '40480'
+    'REMOTE_ADDR' => '192.168.0.100'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'C:\\nginx/html/advanced'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => '191'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422419030.3932
+    'REQUEST_TIME' => 1422419030
+]
+2015-01-28 11:27:42 [192.168.0.100][-][o638tka8kp71j5pdu10f72r2t2][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'class' (T_CLASS), expecting ',' or ';'' in C:\nginx\html\advanced\common\models\User.php:24
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-01-28 11:27:41 [192.168.0.100][-][o638tka8kp71j5pdu10f72r2t2][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_POST = [
+    '_csrf' => 'WWRHQnB5RlY0OzVzOT9yHRohdywlNwgGBgIfMkUSHj4fUAUPHxsiAQ=='
+    'SignupForm' => [
+        'username' => 'kangmas'
+        'email' => 'masbuqin@gmail.com'
+        'password' => 'msqj1783'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'o638tka8kp71j5pdu10f72r2t2'
+    '_csrf' => 'bbf07db2a32a0521a1be309a60bac80869e9a3404bdc5d366cb80acecf82b9e3s:32:\"m_r1IF4KCE0nUNNP_fXp5kXhF4BMobdW\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\Documents and Settings\\All Users'
+    'APPDATA' => 'C:\\Documents and Settings\\User\\Application Data'
+    'CLIENTNAME' => 'Console'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'NOPIE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DEFAULT_CA_NR' => 'CA8'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'GPU_MAX_ALLOC_PERCENT' => '75'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Documents and Settings\\User'
+    'LOGONSERVER' => '\\\\NOPIE'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\nginx\\PHP;C:\\Documents and Settings\\All Users\\Application Data\\Oracle\\Java\\javapath;C:\\Program Files\\Borland\\Delphi7\\Bin;C:\\Program Files\\Borland\\Delphi7\\Projects\\Bpl\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\bin\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\framework\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\WBEM;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\Common Files\\Teleca Shared;C:\\Program Files\\Xuggle\\bin;C:\\Program Files\\Bitvise SSH Client;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\OpenVPN\\bin;C:\\Strawberry\\c\\bin;C:\\Strawberry\\perl\\site\\bin;C:\\Strawberry\\perl\\bin;c:\\wt-nmp\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'x86 Family 6 Model 28 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '1c0a'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'TMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'USERDOMAIN' => 'NOPIE'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Documents and Settings\\User'
+    'VS100COMNTOOLS' => 'C:\\Program Files\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'windir' => 'C:\\WINDOWS'
+    '__COMPAT_LAYER' => 'EnableNXShowUI '
+    'HTTP_COOKIE' => 'PHPSESSID=o638tka8kp71j5pdu10f72r2t2; _csrf=bbf07db2a32a0521a1be309a60bac80869e9a3404bdc5d366cb80acecf82b9e3s%3A32%3A%22m_r1IF4KCE0nUNNP_fXp5kXhF4BMobdW%22%3B'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US'
+    'HTTP_X_WAP_PROFILE' => 'http://gsm.lge.com/html/gsm/D410-M3-D1.xml'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_REFERER' => 'http://192.168.0.103/frontend/web/index.php?r=site%2Fsignup'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; LG-D410 Build/KOT49I.A1410955834) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.1599.103 Mobile Safari/537.36'
+    'HTTP_ORIGIN' => 'http://192.168.0.103'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONTENT_LENGTH' => '191'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.0.103'
+    'PATH_TRANSLATED' => 'C:\\nginx/html/advanced/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'C:\\nginx/html/advanced/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.0.103'
+    'REMOTE_PORT' => '40499'
+    'REMOTE_ADDR' => '192.168.0.100'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'C:\\nginx/html/advanced'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => '191'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422419261.2057
+    'REQUEST_TIME' => 1422419261
+]
+2015-01-28 11:28:16 [192.168.0.100][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.0.100
+    in C:\nginx\html\advanced\frontend\views\layouts\main.php:73
+    in C:\nginx\html\advanced\frontend\controllers\SiteController.php:70
+2015-01-28 11:28:15 [192.168.0.100][1][-][info][application] $_COOKIE = [
+    '_csrf' => 'bbf07db2a32a0521a1be309a60bac80869e9a3404bdc5d366cb80acecf82b9e3s:32:\"m_r1IF4KCE0nUNNP_fXp5kXhF4BMobdW\";'
+    'PHPSESSID' => 'kqphfe4t8hnf8hm8kep1vbe5m1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\Documents and Settings\\All Users'
+    'APPDATA' => 'C:\\Documents and Settings\\User\\Application Data'
+    'CLIENTNAME' => 'Console'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'NOPIE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DEFAULT_CA_NR' => 'CA8'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'GPU_MAX_ALLOC_PERCENT' => '75'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Documents and Settings\\User'
+    'LOGONSERVER' => '\\\\NOPIE'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\nginx\\PHP;C:\\Documents and Settings\\All Users\\Application Data\\Oracle\\Java\\javapath;C:\\Program Files\\Borland\\Delphi7\\Bin;C:\\Program Files\\Borland\\Delphi7\\Projects\\Bpl\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\bin\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\framework\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\WBEM;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\Common Files\\Teleca Shared;C:\\Program Files\\Xuggle\\bin;C:\\Program Files\\Bitvise SSH Client;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\OpenVPN\\bin;C:\\Strawberry\\c\\bin;C:\\Strawberry\\perl\\site\\bin;C:\\Strawberry\\perl\\bin;c:\\wt-nmp\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'x86 Family 6 Model 28 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '1c0a'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'TMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'USERDOMAIN' => 'NOPIE'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Documents and Settings\\User'
+    'VS100COMNTOOLS' => 'C:\\Program Files\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'windir' => 'C:\\WINDOWS'
+    '__COMPAT_LAYER' => 'EnableNXShowUI '
+    'HTTP_COOKIE' => '_csrf=bbf07db2a32a0521a1be309a60bac80869e9a3404bdc5d366cb80acecf82b9e3s%3A32%3A%22m_r1IF4KCE0nUNNP_fXp5kXhF4BMobdW%22%3B; PHPSESSID=kqphfe4t8hnf8hm8kep1vbe5m1'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US'
+    'HTTP_X_WAP_PROFILE' => 'http://gsm.lge.com/html/gsm/D410-M3-D1.xml'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_REFERER' => 'http://192.168.0.103/frontend/web/index.php?r=site%2Fsignup'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; LG-D410 Build/KOT49I.A1410955834) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.1599.103 Mobile Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.0.103'
+    'PATH_TRANSLATED' => 'C:\\nginx/html/advanced/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'C:\\nginx/html/advanced/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.0.103'
+    'REMOTE_PORT' => '40499'
+    'REMOTE_ADDR' => '192.168.0.100'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'C:\\nginx/html/advanced'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/index.php'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422419295.2995
+    'REQUEST_TIME' => 1422419295
+]
+2015-01-28 11:30:18 [192.168.0.100][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.0.100
+    in C:\nginx\html\advanced\frontend\views\layouts\main.php:73
+    in C:\nginx\html\advanced\frontend\controllers\SiteController.php:116
+2015-01-28 11:30:18 [192.168.0.100][1][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_COOKIE = [
+    '_csrf' => 'bbf07db2a32a0521a1be309a60bac80869e9a3404bdc5d366cb80acecf82b9e3s:32:\"m_r1IF4KCE0nUNNP_fXp5kXhF4BMobdW\";'
+    'PHPSESSID' => 'kqphfe4t8hnf8hm8kep1vbe5m1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\Documents and Settings\\All Users'
+    'APPDATA' => 'C:\\Documents and Settings\\User\\Application Data'
+    'CLIENTNAME' => 'Console'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'NOPIE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DEFAULT_CA_NR' => 'CA8'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'GPU_MAX_ALLOC_PERCENT' => '75'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Documents and Settings\\User'
+    'LOGONSERVER' => '\\\\NOPIE'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\nginx\\PHP;C:\\Documents and Settings\\All Users\\Application Data\\Oracle\\Java\\javapath;C:\\Program Files\\Borland\\Delphi7\\Bin;C:\\Program Files\\Borland\\Delphi7\\Projects\\Bpl\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\bin\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\framework\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\WBEM;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\Common Files\\Teleca Shared;C:\\Program Files\\Xuggle\\bin;C:\\Program Files\\Bitvise SSH Client;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\OpenVPN\\bin;C:\\Strawberry\\c\\bin;C:\\Strawberry\\perl\\site\\bin;C:\\Strawberry\\perl\\bin;c:\\wt-nmp\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'x86 Family 6 Model 28 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '1c0a'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'TMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'USERDOMAIN' => 'NOPIE'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Documents and Settings\\User'
+    'VS100COMNTOOLS' => 'C:\\Program Files\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'windir' => 'C:\\WINDOWS'
+    '__COMPAT_LAYER' => 'EnableNXShowUI '
+    'HTTP_COOKIE' => '_csrf=bbf07db2a32a0521a1be309a60bac80869e9a3404bdc5d366cb80acecf82b9e3s%3A32%3A%22m_r1IF4KCE0nUNNP_fXp5kXhF4BMobdW%22%3B; PHPSESSID=kqphfe4t8hnf8hm8kep1vbe5m1'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US'
+    'HTTP_X_WAP_PROFILE' => 'http://gsm.lge.com/html/gsm/D410-M3-D1.xml'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_REFERER' => 'http://192.168.0.103/frontend/web/index.php'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; LG-D410 Build/KOT49I.A1410955834) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.1599.103 Mobile Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.0.103'
+    'PATH_TRANSLATED' => 'C:\\nginx/html/advanced/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'C:\\nginx/html/advanced/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.0.103'
+    'REMOTE_PORT' => '40513'
+    'REMOTE_ADDR' => '192.168.0.100'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'C:\\nginx/html/advanced'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422419417.9714
+    'REQUEST_TIME' => 1422419417
+]
+2015-01-28 11:30:27 [192.168.0.100][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.0.100
+    in C:\nginx\html\advanced\frontend\views\layouts\main.php:73
+    in C:\nginx\html\advanced\frontend\controllers\SiteController.php:70
+2015-01-28 11:30:27 [192.168.0.100][1][-][info][application] $_COOKIE = [
+    '_csrf' => 'bbf07db2a32a0521a1be309a60bac80869e9a3404bdc5d366cb80acecf82b9e3s:32:\"m_r1IF4KCE0nUNNP_fXp5kXhF4BMobdW\";'
+    'PHPSESSID' => 'kqphfe4t8hnf8hm8kep1vbe5m1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\Documents and Settings\\All Users'
+    'APPDATA' => 'C:\\Documents and Settings\\User\\Application Data'
+    'CLIENTNAME' => 'Console'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'NOPIE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DEFAULT_CA_NR' => 'CA8'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'GPU_MAX_ALLOC_PERCENT' => '75'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Documents and Settings\\User'
+    'LOGONSERVER' => '\\\\NOPIE'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\nginx\\PHP;C:\\Documents and Settings\\All Users\\Application Data\\Oracle\\Java\\javapath;C:\\Program Files\\Borland\\Delphi7\\Bin;C:\\Program Files\\Borland\\Delphi7\\Projects\\Bpl\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\bin\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\framework\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\WBEM;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\Common Files\\Teleca Shared;C:\\Program Files\\Xuggle\\bin;C:\\Program Files\\Bitvise SSH Client;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\OpenVPN\\bin;C:\\Strawberry\\c\\bin;C:\\Strawberry\\perl\\site\\bin;C:\\Strawberry\\perl\\bin;c:\\wt-nmp\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'x86 Family 6 Model 28 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '1c0a'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'TMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'USERDOMAIN' => 'NOPIE'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Documents and Settings\\User'
+    'VS100COMNTOOLS' => 'C:\\Program Files\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'windir' => 'C:\\WINDOWS'
+    '__COMPAT_LAYER' => 'EnableNXShowUI '
+    'HTTP_COOKIE' => '_csrf=bbf07db2a32a0521a1be309a60bac80869e9a3404bdc5d366cb80acecf82b9e3s%3A32%3A%22m_r1IF4KCE0nUNNP_fXp5kXhF4BMobdW%22%3B; PHPSESSID=kqphfe4t8hnf8hm8kep1vbe5m1'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US'
+    'HTTP_X_WAP_PROFILE' => 'http://gsm.lge.com/html/gsm/D410-M3-D1.xml'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_REFERER' => 'http://192.168.0.103/frontend/web/index.php?r=site%2Fabout'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; LG-D410 Build/KOT49I.A1410955834) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.1599.103 Mobile Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.0.103'
+    'PATH_TRANSLATED' => 'C:\\nginx/html/advanced/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'C:\\nginx/html/advanced/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.0.103'
+    'REMOTE_PORT' => '40513'
+    'REMOTE_ADDR' => '192.168.0.100'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'C:\\nginx/html/advanced'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/index.php'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422419427.1745
+    'REQUEST_TIME' => 1422419427
+]
+2015-01-28 11:30:34 [192.168.0.100][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.0.100
+    in C:\nginx\html\advanced\frontend\views\layouts\main.php:73
+    in C:\nginx\html\advanced\frontend\controllers\SiteController.php:70
+2015-01-28 11:30:33 [192.168.0.100][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'bbf07db2a32a0521a1be309a60bac80869e9a3404bdc5d366cb80acecf82b9e3s:32:\"m_r1IF4KCE0nUNNP_fXp5kXhF4BMobdW\";'
+    'PHPSESSID' => 'm0q7esjjkn3n3dk1ju5iuit1g3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\Documents and Settings\\All Users'
+    'APPDATA' => 'C:\\Documents and Settings\\User\\Application Data'
+    'CLIENTNAME' => 'Console'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'NOPIE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DEFAULT_CA_NR' => 'CA8'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'GPU_MAX_ALLOC_PERCENT' => '75'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Documents and Settings\\User'
+    'LOGONSERVER' => '\\\\NOPIE'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\nginx\\PHP;C:\\Documents and Settings\\All Users\\Application Data\\Oracle\\Java\\javapath;C:\\Program Files\\Borland\\Delphi7\\Bin;C:\\Program Files\\Borland\\Delphi7\\Projects\\Bpl\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\bin\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\framework\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\WBEM;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\Common Files\\Teleca Shared;C:\\Program Files\\Xuggle\\bin;C:\\Program Files\\Bitvise SSH Client;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\OpenVPN\\bin;C:\\Strawberry\\c\\bin;C:\\Strawberry\\perl\\site\\bin;C:\\Strawberry\\perl\\bin;c:\\wt-nmp\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'x86 Family 6 Model 28 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '1c0a'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'TMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'USERDOMAIN' => 'NOPIE'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Documents and Settings\\User'
+    'VS100COMNTOOLS' => 'C:\\Program Files\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'windir' => 'C:\\WINDOWS'
+    '__COMPAT_LAYER' => 'EnableNXShowUI '
+    'HTTP_COOKIE' => '_csrf=bbf07db2a32a0521a1be309a60bac80869e9a3404bdc5d366cb80acecf82b9e3s%3A32%3A%22m_r1IF4KCE0nUNNP_fXp5kXhF4BMobdW%22%3B; PHPSESSID=m0q7esjjkn3n3dk1ju5iuit1g3'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US'
+    'HTTP_X_WAP_PROFILE' => 'http://gsm.lge.com/html/gsm/D410-M3-D1.xml'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_REFERER' => 'http://192.168.0.103/frontend/web/index.php'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; LG-D410 Build/KOT49I.A1410955834) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.1599.103 Mobile Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.0.103'
+    'PATH_TRANSLATED' => 'C:\\nginx/html/advanced/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'C:\\nginx/html/advanced/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.0.103'
+    'REMOTE_PORT' => '40513'
+    'REMOTE_ADDR' => '192.168.0.100'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'C:\\nginx/html/advanced'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/index.php'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422419433.9557
+    'REQUEST_TIME' => 1422419433
+]
+2015-01-28 11:30:39 [192.168.0.100][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.0.100
+    in C:\nginx\html\advanced\frontend\views\layouts\main.php:73
+    in C:\nginx\html\advanced\frontend\controllers\SiteController.php:132
+2015-01-28 11:30:39 [192.168.0.100][-][-][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_COOKIE = [
+    '_csrf' => 'bbf07db2a32a0521a1be309a60bac80869e9a3404bdc5d366cb80acecf82b9e3s:32:\"m_r1IF4KCE0nUNNP_fXp5kXhF4BMobdW\";'
+    'PHPSESSID' => 'm0q7esjjkn3n3dk1ju5iuit1g3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\Documents and Settings\\All Users'
+    'APPDATA' => 'C:\\Documents and Settings\\User\\Application Data'
+    'CLIENTNAME' => 'Console'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'NOPIE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DEFAULT_CA_NR' => 'CA8'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'GPU_MAX_ALLOC_PERCENT' => '75'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Documents and Settings\\User'
+    'LOGONSERVER' => '\\\\NOPIE'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\nginx\\PHP;C:\\Documents and Settings\\All Users\\Application Data\\Oracle\\Java\\javapath;C:\\Program Files\\Borland\\Delphi7\\Bin;C:\\Program Files\\Borland\\Delphi7\\Projects\\Bpl\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\bin\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\framework\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\WBEM;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\Common Files\\Teleca Shared;C:\\Program Files\\Xuggle\\bin;C:\\Program Files\\Bitvise SSH Client;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\OpenVPN\\bin;C:\\Strawberry\\c\\bin;C:\\Strawberry\\perl\\site\\bin;C:\\Strawberry\\perl\\bin;c:\\wt-nmp\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'x86 Family 6 Model 28 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '1c0a'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'TMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'USERDOMAIN' => 'NOPIE'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Documents and Settings\\User'
+    'VS100COMNTOOLS' => 'C:\\Program Files\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'windir' => 'C:\\WINDOWS'
+    '__COMPAT_LAYER' => 'EnableNXShowUI '
+    'HTTP_COOKIE' => '_csrf=bbf07db2a32a0521a1be309a60bac80869e9a3404bdc5d366cb80acecf82b9e3s%3A32%3A%22m_r1IF4KCE0nUNNP_fXp5kXhF4BMobdW%22%3B; PHPSESSID=m0q7esjjkn3n3dk1ju5iuit1g3'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US'
+    'HTTP_X_WAP_PROFILE' => 'http://gsm.lge.com/html/gsm/D410-M3-D1.xml'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate'
+    'HTTP_REFERER' => 'http://192.168.0.103/frontend/web/index.php'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; LG-D410 Build/KOT49I.A1410955834) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.1599.103 Mobile Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.0.103'
+    'PATH_TRANSLATED' => 'C:\\nginx/html/advanced/frontend/web/index.php'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'C:\\nginx/html/advanced/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.0.103'
+    'REMOTE_PORT' => '40513'
+    'REMOTE_ADDR' => '192.168.0.100'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'C:\\nginx/html/advanced'
+    'DOCUMENT_URI' => '/frontend/web/index.php'
+    'REQUEST_URI' => '/frontend/web/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422419439.0182
+    'REQUEST_TIME' => 1422419439
+]
+2015-02-20 11:33:58 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: /home/kangmas/myprojects/advanced/frontend/views/profile/index.php' in /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/View.php:226
+Stack trace:
+#0 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/kangmas/m...', Array, Object(frontend\controllers\ProfileController))
+#1 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\ProfileController))
+#2 /home/kangmas/myprojects/advanced/frontend/controllers/ProfileController.php(41): yii\base\Controller->render('index', Array)
+#3 [internal function]: frontend\controllers\ProfileController->actionIndex()
+#4 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('profile/index', Array)
+#8 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/kangmas/myprojects/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#10 {main}
+2015-02-20 11:33:57 [::1][-][-][info][application] $_GET = [
+    'r' => 'profile/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '8d9kh9hjtulg1liugcrcil1387'
+    '_csrf' => '8e1cb6fcdec02b3d5f27515d4ef75586cd2c1b143da77be39f3802bd3900b991s:32:\"_5DJ8IkJ7k2W-odkHTBrghqycYdH3l4c\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686; rv:31.0) Gecko/20100101 Firefox/31.0 Iceweasel/31.3.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=8d9kh9hjtulg1liugcrcil1387; _csrf=8e1cb6fcdec02b3d5f27515d4ef75586cd2c1b143da77be39f3802bd3900b991s%3A32%3A%22_5DJ8IkJ7k2W-odkHTBrghqycYdH3l4c%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.22 (Debian) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/home/kangmas/myprojects'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/kangmas/myprojects/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '34305'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=profile%2Findex'
+    'REQUEST_URI' => '/advanced/frontend/web/index.php?r=profile%2Findex'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424432037.858
+    'REQUEST_TIME' => 1424432037
+]
+2015-02-20 11:35:15 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: /home/kangmas/myprojects/advanced/frontend/views/profile/index.php' in /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/View.php:226
+Stack trace:
+#0 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/kangmas/m...', Array, Object(frontend\controllers\ProfileController))
+#1 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Controller.php(367): yii\base\View->render('index', Array, Object(frontend\controllers\ProfileController))
+#2 /home/kangmas/myprojects/advanced/frontend/controllers/ProfileController.php(41): yii\base\Controller->render('index', Array)
+#3 [internal function]: frontend\controllers\ProfileController->actionIndex()
+#4 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#7 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('profile', Array)
+#8 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/kangmas/myprojects/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#10 {main}
+2015-02-20 11:35:15 [::1][-][-][info][application] $_GET = [
+    'r' => 'profile'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '8d9kh9hjtulg1liugcrcil1387'
+    '_csrf' => '8e1cb6fcdec02b3d5f27515d4ef75586cd2c1b143da77be39f3802bd3900b991s:32:\"_5DJ8IkJ7k2W-odkHTBrghqycYdH3l4c\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686; rv:31.0) Gecko/20100101 Firefox/31.0 Iceweasel/31.3.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=8d9kh9hjtulg1liugcrcil1387; _csrf=8e1cb6fcdec02b3d5f27515d4ef75586cd2c1b143da77be39f3802bd3900b991s%3A32%3A%22_5DJ8IkJ7k2W-odkHTBrghqycYdH3l4c%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.22 (Debian) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/home/kangmas/myprojects'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/kangmas/myprojects/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '34320'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=profile'
+    'REQUEST_URI' => '/advanced/frontend/web/index.php?r=profile'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424432115.1
+    'REQUEST_TIME' => 1424432115
+]
+2015-02-22 13:44:53 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: profile/index.php' in /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index.php', Array)
+#1 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('profile/index.p...', Array)
+#2 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /home/kangmas/myprojects/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/kangmas/myprojects/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-02-22 13:44:52 [::1][-][-][info][application] $_GET = [
+    'r' => 'profile/index.php'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.22+ (KHTML, like Gecko) Chromium/17.0.963.56 Chrome/17.0.963.56 Safari/535.22+'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.22 (Debian) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/home/kangmas/myprojects'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/kangmas/myprojects/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '50774'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=profile/index.php'
+    'REQUEST_URI' => '/advanced/frontend/web/index.php?r=profile/index.php'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424612692.57
+    'REQUEST_TIME' => 1424612692
+]
+2015-02-22 13:45:27 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: profile/find' in /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('find', Array)
+#1 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('profile/find', Array)
+#2 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /home/kangmas/myprojects/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/kangmas/myprojects/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-02-22 13:45:26 [::1][-][-][info][application] $_GET = [
+    'r' => 'profile/find'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.22+ (KHTML, like Gecko) Chromium/17.0.963.56 Chrome/17.0.963.56 Safari/535.22+'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.22 (Debian) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/home/kangmas/myprojects'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/kangmas/myprojects/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '50776'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=profile/find'
+    'REQUEST_URI' => '/advanced/frontend/web/index.php?r=profile/find'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424612726.911
+    'REQUEST_TIME' => 1424612726
+]
+2015-02-24 04:29:43 [::1][-][-][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/web/Controller.php:110
+Stack trace:
+#0 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#2 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/login', Array)
+#3 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 /home/kangmas/myprojects/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#5 {main}
+2015-02-24 04:29:43 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'bm9wZlFNRmQXXhJeAgcEVzYJSQUwfHQAHjsYAyEvAiosNQETEwQNPg=='
+    'LoginForm' => [
+        'username' => 'kangmas'
+        'password' => 'msqj1783'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.22+ (KHTML, like Gecko) Chromium/17.0.963.56 Chrome/17.0.963.56 Safari/535.22+'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advanced/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'CONTENT_LENGTH' => '201'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.22 (Debian) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/home/kangmas/myprojects'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/kangmas/myprojects/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '59014'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/advanced/frontend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424752183.225
+    'REQUEST_TIME' => 1424752183
+]
+2015-02-24 04:31:13 [::1][1][q6nbi792krs22t07eh32940dt4][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Method name must be a string' in /home/kangmas/myprojects/advanced/common/models/RecordHelpers.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-02-24 04:31:13 [::1][1][q6nbi792krs22t07eh32940dt4][info][application] $_GET = [
+    'r' => 'profile'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'q6nbi792krs22t07eh32940dt4'
+    '_csrf' => '2da1095d3aa631c4e41e05a2c7df4769e8c61e318fb3f37010611a6edbff5d9bs:32:\"SD-k7CWT-JKX30BRMmbD1KJqDxKZvypg\";'
+    '_identity' => 'ee3d53d56eef0ba4e42a9d3492c576079f17c7b24397dd7128343ae482fc1870s:46:\"[1,\"gGxyo8pZTGZX9BavbCNColGjRtzwyQ6Z\",2592000]\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advanced/frontend/web/index.php?r=profile'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686; rv:31.0) Gecko/20100101 Firefox/31.0 Iceweasel/31.4.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/advanced/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_COOKIE' => 'PHPSESSID=q6nbi792krs22t07eh32940dt4; _csrf=2da1095d3aa631c4e41e05a2c7df4769e8c61e318fb3f37010611a6edbff5d9bs%3A32%3A%22SD-k7CWT-JKX30BRMmbD1KJqDxKZvypg%22%3B; _identity=ee3d53d56eef0ba4e42a9d3492c576079f17c7b24397dd7128343ae482fc1870s%3A46%3A%22%5B1%2C%22gGxyo8pZTGZX9BavbCNColGjRtzwyQ6Z%22%2C2592000%5D%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.22 (Debian) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/home/kangmas/myprojects'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/kangmas/myprojects/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '59023'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=profile'
+    'REQUEST_URI' => '/advanced/frontend/web/index.php?r=profile'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424752273.396
+    'REQUEST_TIME' => 1424752273
+]
+2015-02-24 09:56:51 [::1][1][-][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Missing required parameters: id' in /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/web/Controller.php:93
+Stack trace:
+#0 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/InlineAction.php(49): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#2 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('view', Array)
+#3 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('profile/view', Array)
+#4 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 /home/kangmas/myprojects/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#6 {main}
+2015-02-24 09:56:50 [::1][1][-][info][application] $_GET = [
+    'r' => 'profile/view'
+]
+
+$_COOKIE = [
+    '_identity' => 'ee3d53d56eef0ba4e42a9d3492c576079f17c7b24397dd7128343ae482fc1870s:46:\"[1,\"gGxyo8pZTGZX9BavbCNColGjRtzwyQ6Z\",2592000]\";'
+    'sessions' => '{}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686; rv:31.0) Gecko/20100101 Firefox/31.0 Iceweasel/31.4.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_identity=ee3d53d56eef0ba4e42a9d3492c576079f17c7b24397dd7128343ae482fc1870s%3A46%3A%22%5B1%2C%22gGxyo8pZTGZX9BavbCNColGjRtzwyQ6Z%22%2C2592000%5D%22%3B; sessions=%7B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.22 (Debian) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/home/kangmas/myprojects'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/kangmas/myprojects/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '54561'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=profile/view'
+    'REQUEST_URI' => '/advanced/frontend/web/index.php?r=profile/view'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424771810.642
+    'REQUEST_TIME' => 1424771810
+]
+2015-02-26 04:33:07 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)' in /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/db/Connection.php:579
+Stack trace:
+#0 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/db/Connection.php(579): PDO->__construct('mysql:host=loca...', 'db_app', 'msqj1783', NULL)
+#1 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/db/Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#3 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/db/Command.php(208): yii\db\Connection->getSlavePdo()
+#5 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/db/Command.php(815): yii\db\Command->prepare(true)
+#6 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/db/Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#7 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/db/Query.php(243): yii\db\Command->queryOne()
+#8 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/db/ActiveQuery.php(285): yii\db\Query->one(NULL)
+#9 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/db/ActiveRecord.php(191): yii\db\ActiveQuery->one()
+#10 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/db/BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition(Array, true)
+#11 /home/kangmas/myprojects/advanced/common/models/User.php(111): yii\db\BaseActiveRecord::findOne(Array)
+#12 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/web/User.php(295): common\models\User::findIdentity(1)
+#13 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/web/User.php(631): yii\web\User->loginByCookie()
+#14 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/web/User.php(176): yii\web\User->renewAuthStatus()
+#15 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/web/User.php(346): yii\web\User->getIdentity()
+#16 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Component.php(130): yii\web\User->getIsGuest()
+#17 /home/kangmas/myprojects/advanced/frontend/views/layouts/main.php(40): yii\base\Component->__get('isGuest')
+#18 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/View.php(325): require('/home/kangmas/m...')
+#19 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/kangmas/m...', Array)
+#20 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\View->renderFile('/home/kangmas/m...', Array, Object(frontend\controllers\SiteController))
+#21 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Controller.php(368): yii\base\Controller->renderContent('<div class="sit...')
+#22 /home/kangmas/myprojects/advanced/frontend/controllers/SiteController.php(70): yii\base\Controller->render('index')
+#23 [internal function]: frontend\controllers\SiteController->actionIndex()
+#24 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#25 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#26 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#27 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('', Array)
+#28 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#29 /home/kangmas/myprojects/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#30 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)' in /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/db/Connection.php:534
+Stack trace:
+#0 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#1 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/db/Command.php(208): yii\db\Connection->getSlavePdo()
+#3 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/db/Command.php(815): yii\db\Command->prepare(true)
+#4 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/db/Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#5 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/db/Query.php(243): yii\db\Command->queryOne()
+#6 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/db/ActiveQuery.php(285): yii\db\Query->one(NULL)
+#7 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/db/ActiveRecord.php(191): yii\db\ActiveQuery->one()
+#8 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/db/BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition(Array, true)
+#9 /home/kangmas/myprojects/advanced/common/models/User.php(111): yii\db\BaseActiveRecord::findOne(Array)
+#10 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/web/User.php(295): common\models\User::findIdentity(1)
+#11 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/web/User.php(631): yii\web\User->loginByCookie()
+#12 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/web/User.php(176): yii\web\User->renewAuthStatus()
+#13 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/web/User.php(346): yii\web\User->getIdentity()
+#14 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Component.php(130): yii\web\User->getIsGuest()
+#15 /home/kangmas/myprojects/advanced/frontend/views/layouts/main.php(40): yii\base\Component->__get('isGuest')
+#16 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/View.php(325): require('/home/kangmas/m...')
+#17 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/home/kangmas/m...', Array)
+#18 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Controller.php(382): yii\base\View->renderFile('/home/kangmas/m...', Array, Object(frontend\controllers\SiteController))
+#19 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Controller.php(368): yii\base\Controller->renderContent('<div class="sit...')
+#20 /home/kangmas/myprojects/advanced/frontend/controllers/SiteController.php(70): yii\base\Controller->render('index')
+#21 [internal function]: frontend\controllers\SiteController->actionIndex()
+#22 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#23 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#24 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#25 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('', Array)
+#26 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 /home/kangmas/myprojects/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#28 {main}
+Additional Information:
+
+2015-02-26 04:33:06 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => 'ee3d53d56eef0ba4e42a9d3492c576079f17c7b24397dd7128343ae482fc1870s:46:\"[1,\"gGxyo8pZTGZX9BavbCNColGjRtzwyQ6Z\",2592000]\";'
+    'sessions' => '{}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/kangmas/myprojects/advanced/frontend/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '39644'
+    'SERVER_SOFTWARE' => 'PHP 5.4.36-0+deb7u3 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/kangmas/myprojects/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686; rv:31.0) Gecko/20100101 Firefox/31.0 Iceweasel/31.4.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_identity=ee3d53d56eef0ba4e42a9d3492c576079f17c7b24397dd7128343ae482fc1870s%3A46%3A%22%5B1%2C%22gGxyo8pZTGZX9BavbCNColGjRtzwyQ6Z%22%2C2592000%5D%22%3B; sessions=%7B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1424925187.2655
+    'REQUEST_TIME' => 1424925187
+]

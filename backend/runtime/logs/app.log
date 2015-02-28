@@ -1,0 +1,715 @@
+2015-01-27 18:43:04 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\nginx\html\advanced\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 C:\nginx\html\advanced\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 C:\nginx\html\advanced\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 C:\nginx\html\advanced\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 C:\nginx\html\advanced\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 C:\nginx\html\advanced\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#5 C:\nginx\html\advanced\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('admin')
+#6 C:\nginx\html\advanced\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('admin')
+#7 C:\nginx\html\advanced\vendor\yiisoft\yii2\db\Command.php(791): yii\db\Command->getRawSql()
+#8 C:\nginx\html\advanced\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#9 C:\nginx\html\advanced\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#10 C:\nginx\html\advanced\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#11 C:\nginx\html\advanced\vendor\yiisoft\yii2\db\ActiveRecord.php(191): yii\db\ActiveQuery->one()
+#12 C:\nginx\html\advanced\vendor\yiisoft\yii2\db\BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition(Array, true)
+#13 C:\nginx\html\advanced\common\models\User.php(82): yii\db\BaseActiveRecord::findOne(Array)
+#14 C:\nginx\html\advanced\common\models\LoginForm.php(73): common\models\User::findByUsername('admin')
+#15 C:\nginx\html\advanced\common\models\LoginForm.php(44): common\models\LoginForm->getUser()
+#16 [internal function]: common\models\LoginForm->validatePassword('password', NULL)
+#17 C:\nginx\html\advanced\vendor\yiisoft\yii2\validators\InlineValidator.php(67): call_user_func(Array, 'password', NULL)
+#18 C:\nginx\html\advanced\vendor\yiisoft\yii2\validators\Validator.php(238): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), 'password')
+#19 C:\nginx\html\advanced\vendor\yiisoft\yii2\base\Model.php(333): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), Array)
+#20 C:\nginx\html\advanced\common\models\LoginForm.php(58): yii\base\Model->validate()
+#21 C:\nginx\html\advanced\backend\controllers\SiteController.php(68): common\models\LoginForm->login()
+#22 [internal function]: backend\controllers\SiteController->actionLogin()
+#23 C:\nginx\html\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#24 C:\nginx\html\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#25 C:\nginx\html\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#26 C:\nginx\html\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/login', Array)
+#27 C:\nginx\html\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 C:\nginx\html\advanced\backend\web\index.php(18): yii\base\Application->run()
+#29 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\nginx\html\advanced\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 C:\nginx\html\advanced\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 C:\nginx\html\advanced\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 C:\nginx\html\advanced\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#3 C:\nginx\html\advanced\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('admin')
+#4 C:\nginx\html\advanced\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('admin')
+#5 C:\nginx\html\advanced\vendor\yiisoft\yii2\db\Command.php(791): yii\db\Command->getRawSql()
+#6 C:\nginx\html\advanced\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#7 C:\nginx\html\advanced\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#8 C:\nginx\html\advanced\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#9 C:\nginx\html\advanced\vendor\yiisoft\yii2\db\ActiveRecord.php(191): yii\db\ActiveQuery->one()
+#10 C:\nginx\html\advanced\vendor\yiisoft\yii2\db\BaseActiveRecord.php(101): yii\db\ActiveRecord::findByCondition(Array, true)
+#11 C:\nginx\html\advanced\common\models\User.php(82): yii\db\BaseActiveRecord::findOne(Array)
+#12 C:\nginx\html\advanced\common\models\LoginForm.php(73): common\models\User::findByUsername('admin')
+#13 C:\nginx\html\advanced\common\models\LoginForm.php(44): common\models\LoginForm->getUser()
+#14 [internal function]: common\models\LoginForm->validatePassword('password', NULL)
+#15 C:\nginx\html\advanced\vendor\yiisoft\yii2\validators\InlineValidator.php(67): call_user_func(Array, 'password', NULL)
+#16 C:\nginx\html\advanced\vendor\yiisoft\yii2\validators\Validator.php(238): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), 'password')
+#17 C:\nginx\html\advanced\vendor\yiisoft\yii2\base\Model.php(333): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), Array)
+#18 C:\nginx\html\advanced\common\models\LoginForm.php(58): yii\base\Model->validate()
+#19 C:\nginx\html\advanced\backend\controllers\SiteController.php(68): common\models\LoginForm->login()
+#20 [internal function]: backend\controllers\SiteController->actionLogin()
+#21 C:\nginx\html\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#22 C:\nginx\html\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#23 C:\nginx\html\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#24 C:\nginx\html\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/login', Array)
+#25 C:\nginx\html\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#26 C:\nginx\html\advanced\backend\web\index.php(18): yii\base\Application->run()
+#27 {main}
+Additional Information:
+
+2015-01-27 18:43:02 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'STFwUF9CTy09aRsYGDcBYXABNAQ2Nwl1IkEvMTZzF2wkBzQWOCN7dA=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => 'admin'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ic7unqa70v6fd8hpt1a2a9vek0'
+    '_csrf' => 'faac3546f8462a26e089b339363f1727a4ab0dc27dedcf2ffed6c794246295fds:32:\"tXkHGuNL90DTiuFXkp_ai1XAm6DFga4Y\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php'
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\Documents and Settings\\All Users'
+    'APPDATA' => 'C:\\Documents and Settings\\User\\Application Data'
+    'CLIENTNAME' => 'Console'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'NOPIE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DEFAULT_CA_NR' => 'CA8'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'GPU_MAX_ALLOC_PERCENT' => '75'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Documents and Settings\\User'
+    'LOGONSERVER' => '\\\\NOPIE'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\nginx\\PHP;C:\\Documents and Settings\\All Users\\Application Data\\Oracle\\Java\\javapath;C:\\Program Files\\Borland\\Delphi7\\Bin;C:\\Program Files\\Borland\\Delphi7\\Projects\\Bpl\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\bin\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\framework\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\WBEM;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\Common Files\\Teleca Shared;C:\\Program Files\\Xuggle\\bin;C:\\Program Files\\Bitvise SSH Client;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\OpenVPN\\bin;C:\\Strawberry\\c\\bin;C:\\Strawberry\\perl\\site\\bin;C:\\Strawberry\\perl\\bin;c:\\wt-nmp\\bin;C:\\Program Files\\Common Files\\Nero\\Lib\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'x86 Family 6 Model 28 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '1c0a'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'TMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'USERDOMAIN' => 'NOPIE'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Documents and Settings\\User'
+    'VS100COMNTOOLS' => 'C:\\Program Files\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'windir' => 'C:\\WINDOWS'
+    '__COMPAT_LAYER' => 'EnableNXShowUI '
+    'HTTP_CONTENT_LENGTH' => '196'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=ic7unqa70v6fd8hpt1a2a9vek0; _csrf=faac3546f8462a26e089b339363f1727a4ab0dc27dedcf2ffed6c794246295fds%3A32%3A%22tXkHGuNL90DTiuFXkp_ai1XAm6DFga4Y%22%3B'
+    'HTTP_REFERER' => 'http://localhost/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-us;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0'
+    'HTTP_HOST' => 'localhost'
+    'PATH_TRANSLATED' => 'C:\\nginx/html/advanced/backend/web/index.php'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'C:\\nginx/html/advanced/backend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '15095'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'C:\\nginx/html/advanced'
+    'DOCUMENT_URI' => '/backend/web/index.php'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'CONTENT_LENGTH' => '196'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422358982.5938
+    'REQUEST_TIME' => 1422358982
+]
+2015-02-03 11:42:13 [127.0.0.1][-][lq0tiv1lhtvvtcgniieh6vogc5][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '}'' in C:\nginx\html\advanced\common\models\User.php:104
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-02-03 11:42:13 [127.0.0.1][-][lq0tiv1lhtvvtcgniieh6vogc5][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'OEtvZGpkV2ILJwEPODBuJXwRLTIcMxkTcQhdJVwmADBPEh8zLQU0KQ=='
+    'LoginForm' => [
+        'username' => 'masbuqin'
+        'password' => 'msqj1783'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'lq0tiv1lhtvvtcgniieh6vogc5'
+    '_csrf' => '5753d83712b03f746ada8f22f9fd1d0fd1df4fa42aef6ad7bcfb9b6fdfaefc35s:32:\"3lnkRT9GDZBVvWNqIC2A6BWRwYpWGacK\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php'
+]
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\Documents and Settings\\All Users'
+    'APPDATA' => 'C:\\Documents and Settings\\User\\Application Data'
+    'CLIENTNAME' => 'Console'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'NOPIE'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DEFAULT_CA_NR' => 'CA8'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'GPU_MAX_ALLOC_PERCENT' => '75'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Documents and Settings\\User'
+    'LOGONSERVER' => '\\\\NOPIE'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files\\Foxit Software\\Foxit Reader\\plugins\\'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\nginx\\PHP;C:\\Documents and Settings\\All Users\\Application Data\\Oracle\\Java\\javapath;C:\\Program Files\\Borland\\Delphi7\\Bin;C:\\Program Files\\Borland\\Delphi7\\Projects\\Bpl\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\bin\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\aspx\\framework\\;C:\\Program Files\\Borland\\Delphi for .NET Preview\\bin\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\WBEM;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\Program Files\\Common Files\\Teleca Shared;C:\\Program Files\\Xuggle\\bin;C:\\Program Files\\Bitvise SSH Client;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\OpenVPN\\bin;C:\\Strawberry\\c\\bin;C:\\Strawberry\\perl\\site\\bin;C:\\Strawberry\\perl\\bin;c:\\wt-nmp\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'x86 Family 6 Model 28 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '1c0a'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'TMP' => 'C:\\DOCUME~1\\User\\LOCALS~1\\Temp'
+    'USERDOMAIN' => 'NOPIE'
+    'USERNAME' => 'User'
+    'USERPROFILE' => 'C:\\Documents and Settings\\User'
+    'VS100COMNTOOLS' => 'C:\\Program Files\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'windir' => 'C:\\WINDOWS'
+    '__COMPAT_LAYER' => 'EnableNXShowUI '
+    'HTTP_CONTENT_LENGTH' => '202'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=lq0tiv1lhtvvtcgniieh6vogc5; _csrf=5753d83712b03f746ada8f22f9fd1d0fd1df4fa42aef6ad7bcfb9b6fdfaefc35s%3A32%3A%223lnkRT9GDZBVvWNqIC2A6BWRwYpWGacK%22%3B'
+    'HTTP_REFERER' => 'http://localhost/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-us;q=0.7,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1; rv:35.0) Gecko/20100101 Firefox/35.0'
+    'HTTP_HOST' => 'localhost'
+    'PATH_TRANSLATED' => 'C:\\nginx/html/advanced/backend/web/index.php'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => 'C:\\nginx/html/advanced/backend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '22057'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => 'C:\\nginx/html/advanced'
+    'DOCUMENT_URI' => '/backend/web/index.php'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'CONTENT_LENGTH' => '202'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422938533.625
+    'REQUEST_TIME' => 1422938533
+]
+2015-02-19 12:11:32 [::1][-][-][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/web/Controller.php:110
+Stack trace:
+#0 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#2 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('site/login', Array)
+#3 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 /home/kangmas/myprojects/advanced/backend/web/index.php(18): yii\base\Application->run()
+#5 {main}
+2015-02-19 12:11:31 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'MzVyQi5ibkNQUTwjfQwgFWoDPhNdEiUOd3sKC0w1FxNBdB97TAYgDg=='
+    'LoginForm' => [
+        'username' => 'kangmas'
+        'password' => 'msqj1783'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.22+ (KHTML, like Gecko) Chromium/17.0.963.56 Chrome/17.0.963.56 Safari/535.22+'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advanced/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'CONTENT_LENGTH' => '201'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.22 (Debian) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/home/kangmas/myprojects'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/kangmas/myprojects/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '60587'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424347891.926
+    'REQUEST_TIME' => 1424347891
+]
+2015-02-19 12:38:17 [::1][-][8d9kh9hjtulg1liugcrcil1387][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\models\NotFoundHttpException' not found' in /home/kangmas/myprojects/advanced/common/models/LoginForm.php:77
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-02-19 12:38:16 [::1][-][8d9kh9hjtulg1liugcrcil1387][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'UjA2ajRNRzILWXEnYDk2XAh5YSVHfwYDNXZfPgJ6GFxlWFUgbH9xAg=='
+    'LoginForm' => [
+        'username' => 'kangmas'
+        'password' => 'msqj1783'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '8d9kh9hjtulg1liugcrcil1387'
+    '_csrf' => '132a1e66969cc7979c3378ae1d5d67d2adea961ea8ada791876649f95b922b8as:32:\"YiGMTtqnZIWOs2A1gFiT67_n7hcJX260\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advanced/backend/web/index.php'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686; rv:31.0) Gecko/20100101 Firefox/31.0 Iceweasel/31.3.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/advanced/backend/web/index.php?r=site%2Flogin'
+    'HTTP_COOKIE' => 'PHPSESSID=8d9kh9hjtulg1liugcrcil1387; _csrf=132a1e66969cc7979c3378ae1d5d67d2adea961ea8ada791876649f95b922b8as%3A32%3A%22YiGMTtqnZIWOs2A1gFiT67_n7hcJX260%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '201'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.22 (Debian) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/home/kangmas/myprojects'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/kangmas/myprojects/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '60662'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424349496.479
+    'REQUEST_TIME' => 1424349496
+]
+2015-02-20 10:19:16 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\models\ActiveRecord' not found' in /home/kangmas/myprojects/advanced/frontend/models/Profile.php:77
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-02-20 10:19:15 [::1][-][-][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_csrf' => 'dC1RcjJubkotRBY/ZhofJC5kBj1BXC97E2s4JgRZMSRDRTI4alxYeg=='
+    'Generator' => [
+        'modelClass' => 'frontend\\models\\Profile'
+        'searchModelClass' => 'frontend\\models\\search\\SearchProfile'
+        'controllerClass' => 'frontend\\controllers\\ProfileController'
+        'viewPath' => ''
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '0'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '8d9kh9hjtulg1liugcrcil1387'
+    '_csrf' => '132a1e66969cc7979c3378ae1d5d67d2adea961ea8ada791876649f95b922b8as:32:\"YiGMTtqnZIWOs2A1gFiT67_n7hcJX260\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686; rv:31.0) Gecko/20100101 Firefox/31.0 Iceweasel/31.3.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/advanced/backend/web/index.php?r=gii%2Fdefault%2Fview&id=crud'
+    'HTTP_COOKIE' => 'PHPSESSID=8d9kh9hjtulg1liugcrcil1387; _csrf=132a1e66969cc7979c3378ae1d5d67d2adea961ea8ada791876649f95b922b8as%3A32%3A%22YiGMTtqnZIWOs2A1gFiT67_n7hcJX260%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '494'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.22 (Debian) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/home/kangmas/myprojects'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/kangmas/myprojects/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '33528'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=crud'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=gii%2Fdefault%2Fview&id=crud'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424427555.729
+    'REQUEST_TIME' => 1424427555
+]
+2015-02-20 10:22:28 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'class' (T_CLASS), expecting ',' or ';'' in /home/kangmas/myprojects/advanced/frontend/models/Profile.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-02-20 10:22:27 [::1][-][-][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_csrf' => 'dC1RcjJubkotRBY/ZhofJC5kBj1BXC97E2s4JgRZMSRDRTI4alxYeg=='
+    'Generator' => [
+        'modelClass' => 'frontend\\models\\Profile'
+        'searchModelClass' => 'frontend\\models\\search\\SearchProfile'
+        'controllerClass' => 'frontend\\controllers\\ProfileController'
+        'viewPath' => ''
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '0'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '8d9kh9hjtulg1liugcrcil1387'
+    '_csrf' => '132a1e66969cc7979c3378ae1d5d67d2adea961ea8ada791876649f95b922b8as:32:\"YiGMTtqnZIWOs2A1gFiT67_n7hcJX260\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686; rv:31.0) Gecko/20100101 Firefox/31.0 Iceweasel/31.3.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/advanced/backend/web/index.php?r=gii%2Fdefault%2Fview&id=crud'
+    'HTTP_COOKIE' => 'PHPSESSID=8d9kh9hjtulg1liugcrcil1387; _csrf=132a1e66969cc7979c3378ae1d5d67d2adea961ea8ada791876649f95b922b8as%3A32%3A%22YiGMTtqnZIWOs2A1gFiT67_n7hcJX260%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '494'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.22 (Debian) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/home/kangmas/myprojects'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/kangmas/myprojects/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '33560'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=crud'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=gii%2Fdefault%2Fview&id=crud'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424427747.858
+    'REQUEST_TIME' => 1424427747
+]
+2015-02-20 11:37:43 [::1][-][-][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/web/Controller.php:110
+Stack trace:
+#0 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('view', Array)
+#2 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('gii/default/vie...', Array)
+#3 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 /home/kangmas/myprojects/advanced/backend/web/index.php(18): yii\base\Application->run()
+#5 {main}
+2015-02-20 11:37:43 [::1][-][-][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_csrf' => 'Q2RyLlM1enYaDTVjB0ELGBktJWEgBztHJCIbemUCJRh0DBFkCwdMRg=='
+    'Generator' => [
+        'modelClass' => 'frontend\\models\\Profile'
+        'searchModelClass' => 'frontend\\models\\search\\SearchProfile'
+        'controllerClass' => 'frontend\\controllers\\ProfileController'
+        'viewPath' => 'frontend\\views'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '0'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '8d9kh9hjtulg1liugcrcil1387'
+    '_csrf' => '8e1cb6fcdec02b3d5f27515d4ef75586cd2c1b143da77be39f3802bd3900b991s:32:\"_5DJ8IkJ7k2W-odkHTBrghqycYdH3l4c\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advanced/backend/web/index.php'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686; rv:31.0) Gecko/20100101 Firefox/31.0 Iceweasel/31.3.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/advanced/backend/web/index.php?r=gii%2Fdefault%2Fview&id=crud'
+    'HTTP_COOKIE' => 'PHPSESSID=8d9kh9hjtulg1liugcrcil1387; _csrf=8e1cb6fcdec02b3d5f27515d4ef75586cd2c1b143da77be39f3802bd3900b991s%3A32%3A%22_5DJ8IkJ7k2W-odkHTBrghqycYdH3l4c%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '508'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.22 (Debian) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/home/kangmas/myprojects'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/kangmas/myprojects/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '34348'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=crud'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=gii%2Fdefault%2Fview&id=crud'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424432263.607
+    'REQUEST_TIME' => 1424432263
+]
+2015-02-20 11:38:10 [::1][-][-][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/web/Controller.php:110
+Stack trace:
+#0 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('view', Array)
+#2 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('gii/default/vie...', Array)
+#3 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 /home/kangmas/myprojects/advanced/backend/web/index.php(18): yii\base\Application->run()
+#5 {main}
+2015-02-20 11:38:10 [::1][-][-][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_csrf' => 'Q2RyLlM1enYaDTVjB0ELGBktJWEgBztHJCIbemUCJRh0DBFkCwdMRg=='
+    'Generator' => [
+        'modelClass' => 'frontend\\models\\Profile'
+        'searchModelClass' => 'frontend\\models\\search\\SearchProfile'
+        'controllerClass' => 'frontend\\controllers\\ProfileController'
+        'viewPath' => 'frontend\\views'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '0'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '8d9kh9hjtulg1liugcrcil1387'
+    '_csrf' => 'dc73f3d28e36f130b5416933a98e275af9bc6aa119d1d04735ced0fca969cf67s:32:\"-3DxyiDK6ngF-Lxw8-j0N5cmb8INxKFY\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advanced/backend/web/index.php'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686; rv:31.0) Gecko/20100101 Firefox/31.0 Iceweasel/31.3.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/advanced/backend/web/index.php?r=gii%2Fdefault%2Fview&id=crud'
+    'HTTP_COOKIE' => 'PHPSESSID=8d9kh9hjtulg1liugcrcil1387; _csrf=dc73f3d28e36f130b5416933a98e275af9bc6aa119d1d04735ced0fca969cf67s%3A32%3A%22-3DxyiDK6ngF-Lxw8-j0N5cmb8INxKFY%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '508'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.22 (Debian) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/home/kangmas/myprojects'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/kangmas/myprojects/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '34354'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=crud'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=gii%2Fdefault%2Fview&id=crud'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424432290.132
+    'REQUEST_TIME' => 1424432290
+]
+2015-02-20 11:38:24 [::1][-][-][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/web/Controller.php:110
+Stack trace:
+#0 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('view', Array)
+#2 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('gii/default/vie...', Array)
+#3 /home/kangmas/myprojects/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 /home/kangmas/myprojects/advanced/backend/web/index.php(18): yii\base\Application->run()
+#5 {main}
+2015-02-20 11:38:24 [::1][-][-][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_csrf' => 'Q2RyLlM1enYaDTVjB0ELGBktJWEgBztHJCIbemUCJRh0DBFkCwdMRg=='
+    'Generator' => [
+        'modelClass' => 'frontend\\models\\Profile'
+        'searchModelClass' => 'frontend\\models\\search\\SearchProfile'
+        'controllerClass' => 'frontend\\controllers\\ProfileController'
+        'viewPath' => ''
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '0'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '8d9kh9hjtulg1liugcrcil1387'
+    '_csrf' => 'dc73f3d28e36f130b5416933a98e275af9bc6aa119d1d04735ced0fca969cf67s:32:\"-3DxyiDK6ngF-Lxw8-j0N5cmb8INxKFY\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/advanced/backend/web/index.php'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686; rv:31.0) Gecko/20100101 Firefox/31.0 Iceweasel/31.3.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/advanced/backend/web/index.php?r=gii%2Fdefault%2Fview&id=crud'
+    'HTTP_COOKIE' => 'PHPSESSID=8d9kh9hjtulg1liugcrcil1387; _csrf=dc73f3d28e36f130b5416933a98e275af9bc6aa119d1d04735ced0fca969cf67s%3A32%3A%22-3DxyiDK6ngF-Lxw8-j0N5cmb8INxKFY%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '492'
+    'PATH' => '/usr/local/bin:/usr/bin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.2.22 (Debian) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.2.22 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/home/kangmas/myprojects'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/home/kangmas/myprojects/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '34358'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=crud'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=gii%2Fdefault%2Fview&id=crud'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424432304.426
+    'REQUEST_TIME' => 1424432304
+]
