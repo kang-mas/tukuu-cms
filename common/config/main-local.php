@@ -5,7 +5,7 @@ return [
             'class' => 'yii\db\Connection',
             'dsn' => 'mysql:host=localhost;dbname=db_app',
             'username' => 'db_app',
-            'password' => 'msqj1783',
+            'password' => '',
             'charset' => 'utf8',
         ],
         'mailer' => [
